@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alerte - Sensibilisation à la cybersécurité</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #e74c3c, #f1c40f);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 10% auto;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
+    h1 {
+      color: #f39c12;
+    }
+
+    .alert-icon {
+      font-size: 80px;
+      color: #e74c3c;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .tips {
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .btn {
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      margin-top: 25px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #2ecc71;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 20% 5%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="alert-icon">⚠️</div>
+    <h1>Attention : Simulation de Phishing</h1>
+    <p>Vous venez de cliquer sur un lien potentiellement malveillant dans le cadre d'une simulation de sensibilisation à la cybersécurité.</p>
+    
+    <div class="tips">
+      <h2>Quelques conseils à retenir :</h2>
+      <ul>
+        <li>Ne cliquez jamais sur un lien douteux ou inattendu.</li>
+        <li>Vérifiez toujours l'adresse de l'expéditeur.</li>
+        <li>Survolez les liens pour voir l'URL réelle avant de cliquer.</li>
+        <li>Signalez tout e-mail suspect à l’équipe informatique.</li>
+        <li>Ne communiquez jamais vos identifiants par email.</li>
+      </ul>
+    </div>
+
+    <p>Cette simulation a pour but de renforcer vos réflexes en cybersécurité.</p>
+    <button class="btn" onclick="window.location.href='https://intranet.votreentreprise.local'">Retour à l'intranet</button>
+  </div>
+</body>
+</html>
